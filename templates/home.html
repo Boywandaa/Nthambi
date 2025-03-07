@@ -1,0 +1,75 @@
+{%extends 'base.html'%}
+{%block title %}Nthambi{%endblock%}
+{%block content%}
+<section>
+    <div class="container">
+        <div class="first">
+            <!-- <img src="first-boy.jpeg" alt=""> -->
+            <div class="para-box">
+                <span>Together We Can</span>
+                <p>create a thriving Malawi where every individual has access to quality education and healthcare, empowered by a global network of compassionate individuals like you</p>
+            </div>
+            <div class="btn-2">
+                <button class="donate-btn" ><a href="{{url_for('checkout')}}">DONATE</a> </button>
+                <button class="join-btn" ><a href="{{url_for('checkout')}}">JOIN US</a> </button>
+
+            </div>
+        </div>
+        <div class="second">
+            <span>ABOUT US</span>
+            <div class="sec-0">
+                <span>Nourishing Futures.</span>
+                <span>Educating children.</span>
+            </div>
+            <p>Feed the children is committed to ending childhood hunger. we believe that no child should go to bed hungry and so we proviede children and afamalies in the US andaround the world with the food and essentials kidsneed to grow and thrive</p>
+            <span>VISION</span>
+            <div class="second1">
+                <div class="box-1"></div>
+                <div class="box-2"></div>  
+            </div>
+
+        </div>
+        <div class="third">
+            <h1>HOW YOU CAN HELP</h1>
+            <div class="third0">
+                <div class="third-1"></div>
+                <div class="third-2"></div>
+                <div class="third-3"></div>
+
+            </div>
+        </div>
+        <div class="fourth">
+            <h1>LATEST NEWS</h1>
+            <div class="fourth0">
+                <div class="fourth-1"></div>
+                <div class="fourth-2"></div>
+                <div class="fourth-3"></div>
+
+            </div>
+        </div>
+        
+    </div>
+</section>
+<footer>
+        <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We provide amazing content and resources for our users.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+            <li><a href="{{url_for('Register')}}">signup</a></li>
+            <li><a href="{{url_for('login')}}">login</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+        </div>
+        <p class="copyright">© 2025 Your Website. All rights reserved.</p>
+</footer>
+{%endblock%}
